@@ -93,6 +93,8 @@ inline uint32_t esp_get_cycle_count() {
 }
 #endif // not CORE_MOCK
 
+#include <stdint.h>
+
 
 // Tools for preloading code into the flash cache
 #define PRECACHE_ATTR __attribute__((optimize("no-reorder-blocks"))) \
